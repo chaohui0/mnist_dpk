@@ -1,0 +1,110 @@
+{
+  "if": {
+    "Isyn": {
+      "data_type": {
+        "signed": 1,
+        "bit_width": 16
+      },
+      "logical_neuron_state": {
+        "type": "special",
+        "name": "wgtsum"
+      }
+    },
+    "V": {
+      "data_type": {
+        "signed": 1,
+        "bit_width": 16
+      },
+      "logical_neuron_state": {
+        "type": "special",
+        "name": "vt"
+      }
+    }
+  },
+  "darwin_random": {
+    "V": {
+      "data_type": {
+        "signed": 1,
+        "bit_width": 16
+      },
+      "logical_neuron_state": {
+        "type": "special",
+        "name": "vt"
+      }
+    }
+  },
+  "darwin_alif": {
+    "Isyn": {
+      "data_type": {
+        "signed": 1,
+        "bit_width": 16
+      },
+      "logical_neuron_state": {
+        "type": "special",
+        "name": "wgtsum"
+      }
+    },
+    "Vth": {
+      "data_type": {
+        "signed": 1,
+        "bit_width": 16
+      },
+      "logical_neuron_state": {
+        "type": "special",
+        "name": "vth"
+      }
+    },
+    "I": {
+      "data_type": {
+        "signed": 1,
+        "bit_width": 16
+      },
+      "logical_neuron_state": {
+        "type": "special",
+        "name": "i"
+      }
+    },
+    "V": {
+      "data_type": {
+        "signed": 1,
+        "bit_width": 16
+      },
+      "logical_neuron_state": {
+        "type": "special",
+        "name": "vt"
+      }
+    }
+  },
+  "darwin_clif": {
+    "Isyn": {
+      "data_type": {
+        "signed": 1,
+        "bit_width": 16
+      },
+      "logical_neuron_state": {
+        "type": "special",
+        "name": "wgtsum"
+      }
+    },
+    "V": {
+      "data_type": {
+        "signed": 1,
+        "bit_width": 16
+      },
+      "logical_neuron_state": {
+        "type": "special",
+        "name": "vt"
+      }
+    },
+    "I": {
+      "data_type": {
+        "signed": 1,
+        "bit_width": 16
+      },
+      "logical_neuron_state": {
+        "type": "special",
+        "name": "i"
+      }
+    }
+  }
+}

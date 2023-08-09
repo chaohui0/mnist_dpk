@@ -1,0 +1,136 @@
+{
+    "autoname1": [
+        {
+            "input": {
+                "id": "autoname1<net>_input<nod>",
+                "name": "input",
+                "num": 784,
+                "type": [],
+                "_dt": null,
+                "_time": null,
+                "coding_var_name": "O",
+                "coding_method": "uniform",
+                "shape": [
+                    784
+                ],
+                "coding_param": {},
+                "dt": 0.1,
+                "time": 3,
+                "kind": "<encoder>",
+                "_class_label": "<nod>"
+            }
+        },
+        {
+            "layer1": {
+                "id": "autoname1<net>_layer1<neg>",
+                "name": "layer1",
+                "num": 10,
+                "model_name": "if",
+                "type": [
+                    "nontype"
+                ],
+                "shape": [
+                    10
+                ],
+                "parameters": {
+                    "dt": 0.1,
+                    "neuron_num": 10
+                },
+                "_class_label": "<neg>"
+            }
+        },
+        {
+            "output": {
+                "id": "autoname1<net>_output<nod>",
+                "name": "output",
+                "num": 10,
+                "type": [],
+                "_dt": null,
+                "_time": null,
+                "coding_var_name": "O",
+                "coding_method": "spike_counts",
+                "shape": [
+                    10
+                ],
+                "coding_param": {},
+                "dt": 0.1,
+                "time": 3,
+                "dec_target": "layer1",
+                "kind": "<decoder>",
+                "_class_label": "<nod>"
+            }
+        },
+        {
+            "connection1": {
+                "id": "autoname1<net>_connection1<con>",
+                "name": "connection1",
+                "pre": "autoname1<net>_input<nod>",
+                "post": "autoname1<net>_layer1<neg>",
+                "link_type": "full",
+                "pre_var_name": "O",
+                "post_var_name": "Isyn",
+                "max_delay": 0,
+                "sparse_with_mask": false,
+                "parameters": {},
+                "synapse_type": [
+                    "basic"
+                ],
+                "_class_label": "<con>"
+            }
+        },
+        {
+            "monitor": [
+                {
+                    "mon_V": {
+                        "var_name": "autoname1<net>_layer1<neg>:{V}",
+                        "index": "full",
+                        "dt": 0.1,
+                        "get_grad": false,
+                        "nbatch": false,
+                        "target": "autoname1<net>_layer1<neg>",
+                        "monitor_type": "StateMonitor"
+                    }
+                },
+                {
+                    "spk_l1": {
+                        "var_name": "autoname1<net>_layer1<neg>:{O}",
+                        "index": "full",
+                        "dt": 0.1,
+                        "get_grad": false,
+                        "nbatch": false,
+                        "target": "autoname1<net>_layer1<neg>",
+                        "monitor_type": "SpikeMonitor"
+                    }
+                }
+            ]
+        },
+        {
+            "learner": {
+                "trainable": [
+                    "connection1",
+                    "layer1",
+                    "input",
+                    "output"
+                ],
+                "_class_label": "<learner>",
+                "name": "learner",
+                "parameters": {},
+                "optim_name": "Adam",
+                "optim_lr": 0.001,
+                "optim_para": {},
+                "lr_schedule_name": null,
+                "algorithm": "STCA"
+            }
+        },
+        {
+            "backend": {
+                "_parameters_dict": "./parameters/_parameters_dict.pt",
+                "dt": 0.1,
+                "runtime": 3,
+                "time": 3.0,
+                "n_time_step": 30,
+                "data_type": "torch.float32"
+            }
+        }
+    ]
+}

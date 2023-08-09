@@ -1,0 +1,5 @@
+[38;20m2023-07-28 15:32:11,177 - WuYuan - INFO - Registering compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> with name darwin3_compiler.[0m
+[38;20m2023-07-28 15:32:11,177 - WuYuan - INFO - The compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> is registered with name darwin3_compiler.[0m
+[38;20m2023-07-28 15:32:11,178 - WuYuan - INFO - No config file.[0m
+[38;20m2023-07-28 15:32:11,335 - WuYuan - INFO - Registering Runtime subclass <class 'wuyuan.runtime.runtime_emulator.RuntimeEmulator'> ...[0m
+[38;20m2023-07-28 15:32:11,335 - WuYuan - INFO - Runtime subclass <class 'wuyuan.runtime.runtime_emulator.RuntimeEmulator'> is successfully registered as the default Runtime implementation.[0m

@@ -1,0 +1,26 @@
+[38;20m2023-06-14 13:49:59,493 - WuYuan - INFO - Registering compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> with name darwin3_compiler.[0m
+[38;20m2023-06-14 13:49:59,493 - WuYuan - INFO - The compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> is registered with name darwin3_compiler.[0m
+[38;20m2023-06-14 13:49:59,494 - WuYuan - INFO - No config file.[0m
+[38;20m2023-06-14 13:50:02,774 - WuYuan - INFO - Compiling SNN model autoname1 ...[0m
+[38;20m2023-06-14 13:50:04,839 - WuYuan - INFO - Compilation for SNN model autoname1 succeeded. The SNN implementation is saved in the directory /tmp/tmp1e2614ur/darwin3.[0m
+[38;20m2023-06-14 13:51:09,381 - WuYuan - INFO - Registering compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> with name darwin3_compiler.[0m
+[38;20m2023-06-14 13:51:09,381 - WuYuan - INFO - The compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> is registered with name darwin3_compiler.[0m
+[38;20m2023-06-14 13:51:09,381 - WuYuan - INFO - No config file.[0m
+[38;20m2023-06-14 14:10:41,090 - WuYuan - INFO - Registering compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> with name darwin3_compiler.[0m
+[38;20m2023-06-14 14:10:41,091 - WuYuan - INFO - The compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> is registered with name darwin3_compiler.[0m
+[38;20m2023-06-14 14:10:41,091 - WuYuan - INFO - No config file.[0m
+[38;20m2023-06-14 14:10:59,533 - WuYuan - INFO - Registering compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> with name darwin3_compiler.[0m
+[38;20m2023-06-14 14:10:59,534 - WuYuan - INFO - The compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> is registered with name darwin3_compiler.[0m
+[38;20m2023-06-14 14:10:59,534 - WuYuan - INFO - No config file.[0m
+[38;20m2023-06-14 14:10:59,874 - WuYuan - INFO - Registering Runtime subclass <class 'wuyuan.runtime.runtime_emulator.RuntimeEmulator'> ...[0m
+[38;20m2023-06-14 14:10:59,874 - WuYuan - INFO - Runtime subclass <class 'wuyuan.runtime.runtime_emulator.RuntimeEmulator'> is successfully registered as the default Runtime implementation.[0m
+[38;20m2023-06-14 15:28:53,457 - WuYuan - INFO - Registering compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> with name darwin3_compiler.[0m
+[38;20m2023-06-14 15:28:53,458 - WuYuan - INFO - The compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> is registered with name darwin3_compiler.[0m
+[38;20m2023-06-14 15:28:53,458 - WuYuan - INFO - No config file.[0m
+[38;20m2023-06-14 15:28:56,704 - WuYuan - INFO - Compiling SNN model autoname1 ...[0m
+[38;20m2023-06-14 15:28:58,777 - WuYuan - INFO - Compilation for SNN model autoname1 succeeded. The SNN implementation is saved in the directory /tmp/tmpo4vk6f5y/darwin3.[0m
+[38;20m2023-06-14 15:31:21,314 - WuYuan - INFO - Registering compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> with name darwin3_compiler.[0m
+[38;20m2023-06-14 15:31:21,314 - WuYuan - INFO - The compiler <class 'wuyuan.compiler._d3_compiler.D3Compiler'> is registered with name darwin3_compiler.[0m
+[38;20m2023-06-14 15:31:21,314 - WuYuan - INFO - No config file.[0m
+[38;20m2023-06-14 15:31:25,050 - WuYuan - INFO - Compiling SNN model autoname1 ...[0m
+[38;20m2023-06-14 15:31:26,873 - WuYuan - INFO - Compilation for SNN model autoname1 succeeded. The SNN implementation is saved in the directory /tmp/tmpxooag7mf/darwin3.[0m
